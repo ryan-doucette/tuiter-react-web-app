@@ -1,0 +1,13 @@
+/* 
+There is very limited (1) classes added to this file because the 
+majority of the content on this page was a "tuit", which I assume
+will also exist in other pages. That's why the style for tuits
+was added to the styles.css file.
+*/
+.wd-bookmarks-header-text-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12px;
+    justify-content: space-between;
+    height: 42px;
+}

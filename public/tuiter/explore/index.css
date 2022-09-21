@@ -1,0 +1,86 @@
+input {
+    background-color: transparent;
+    border: 0;
+}
+input:focus {
+    outline: none;
+}
+.wd-search-input-container {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #212327;
+    width: 350px;
+    border-radius: 100px;
+    padding: 12px;
+    padding-left: 20px;
+}
+.wd-search-input {
+    margin-left: 12px;
+}
+.wd-links-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+.wd-link-container {
+    display: flex;
+    justify-content: center;
+}
+.wd-selected-link-container {
+    border-bottom: solid 4px rgb(29,161,242);
+}
+.wd-link {
+    padding: 16px;
+}
+.wd-selected-link {
+    color: rgb(29,161,242);
+}
+.wd-suggested-posts-section {
+    border-top: 20px #212327 solid;
+}
+.wd-suggested-post-container {
+    padding-bottom: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.wd-suggested-post-text-content-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.wd-suggested-post-topic-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wd-suggested-post-padding {
+    padding: 6px 0;
+}
+.wd-suggested-post-text-author {
+    padding: 0 6px;
+}
+.wd-elipsis-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px 0 ;
+}
+.wd-suggested-post-author-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.wd-suggested-post-author-icon {
+    width: 16px;
+}
+.wd-suggested-post-date {
+    padding-left: 8px;
+}
+.wd-suggested-post-img {
+    width: 100px;
+    border-radius: 12px;
+}
