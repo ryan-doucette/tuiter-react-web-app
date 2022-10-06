@@ -12,20 +12,17 @@ input:focus {
 .wd-search-input-container {
     display: flex;
     align-items: center;
-    color: white;
-    background-color: #212327;
+    color: black;
+    background-color: white;
     border-radius: 100px;
     width: 100%;
-}
-.wd-main-image {
-    background-color: #212327;
 }
 .wd-link-container {
     display: flex;
     justify-content: center;
 }
 .wd-selected-link-container {
-    border-bottom: solid 4px #0b6dfd;
+    border-bottom: solid 4px #299fd6;
 }
 .wd-selected-link {
     color: rgb(29,161,242);
@@ -65,7 +62,7 @@ input:focus {
     border-radius: 12px;
 }
 .nav-link {
-    color: #0b6dfd;
+    color: white;
 }
 .nav-link:hover {
     color: white;
@@ -74,21 +71,17 @@ input:focus {
     border-bottom: rgb(110, 118, 125) 1px solid;
 }
 .nav-tabs .nav-item .nav-link.active {
-    background-color: #212327;
+    background-color: #299fd6;
     color: white;
     border: rgb(110, 118, 125) 1px solid;
     border-bottom: #212327 1px solid;
 }
-.list-group {
-    border: rgb(110, 118, 125) 0.5px solid;
-}
 .list-group-item.override-bs {
-    background-color: black;
+    background-color: #222222;
     color: white;
-    border: rgb(110, 118, 125) 0.5px solid;
 }
 .active.override-bs {
-    background-color: #0b6dfd;
+    background-color: #299fd6;
     color: white;
 }
 .list-group-item.override-bs:hover {
@@ -117,7 +110,7 @@ input:focus {
     width: 100%;
 }
 .list-group-item.override-bs.wd-who-to-follow:hover {
-    background-color: transparent;
+    background-color: #222222;
     color: white;
     cursor:auto;
 }
@@ -139,6 +132,20 @@ input:focus {
 .col.override-bs.wd-who-to-follow-container {
     min-width: 307px;
 }
+.btn-primary.override-bs {
+    background-color: #299fd6;
+    border: none;
+}
+.btn-primary.override-bs:hover {
+    background-color: #2487b6;
+}
+.list-group-item.active.override-bs {
+    border: none;
+}
+.wd-post-summary-list {
+    background-color: #222222;
+}
+
 /* Small adjustment to prevent text wrapping, edge case bootstrap couldnt cover */
 @media only screen and (min-width: 990px)  {
     .col.override-bs.wd-main-content {
