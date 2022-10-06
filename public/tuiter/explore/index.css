@@ -139,6 +139,9 @@ input:focus {
 .col.override-bs.wd-who-to-follow-container {
     min-width: 307px;
 }
+.wd-suggested-post-section {
+    border: rgb(110, 118, 125) 0.5px solid;
+}
 /* Small adjustment to prevent text wrapping, edge case bootstrap couldnt cover */
 @media only screen and (min-width: 990px)  {
     .col.override-bs.wd-main-content {
