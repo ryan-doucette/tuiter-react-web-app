@@ -8,7 +8,7 @@ const PostSummaryItem = ({post}) => {
                     <span className="wd-text-regular mb-1 wd-suggested-post-text-author pe-2">
                         {post.userName}
                     </span>
-                    <img src={require('../../images/twitter-verified.webp')} alt={`${post.title}`} className="wd-suggested-post-author-icon"/>
+                    <img src={require('../../images/twitter-verified.webp')} alt={`verified-icon`} className="wd-suggested-post-author-icon"/>
                     <span className="wd-text-small wd-suggested-post-date ps-2">
                         - {post.time}
                     </span>
@@ -20,7 +20,7 @@ const PostSummaryItem = ({post}) => {
                     {post.title}
                 </span>
             </div>
-            <img src={post.image} className="wd-suggested-post-img ms-2"/>
+            <img src={post.image} alt={`${post.title}`} className="wd-suggested-post-img ms-2"/>
         </div>
     </li>
  );

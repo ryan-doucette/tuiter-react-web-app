@@ -12,7 +12,7 @@ const WhoToFollowListItem = ({who}) => {
                             <span className="wd-text-bold wd-text-small wd-suggested-post-text-author pe-1">
                                 {who.userName}
                             </span>
-                            <img src={require('../../images/twitter-verified.webp')} alt={`${who.handle}`} className="wd-suggested-post-author-icon"/>
+                            <img src={require('../../images/twitter-verified.webp')} alt={'verified-icon'} className="wd-suggested-post-author-icon"/>
                         </div>
                         <span className="wd-text-small wd-suggested-post-date">
                             @{who.handle}
