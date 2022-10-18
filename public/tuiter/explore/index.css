@@ -81,7 +81,6 @@ input:focus {
     color: white;
 }
 .active.override-bs {
-    background-color: #299fd6;
     color: white;
 }
 .list-group-item.override-bs:hover {
@@ -90,7 +89,7 @@ input:focus {
     cursor: pointer;
 }
 .wd-explore-nav-icons {
-    color: white;
+    color: black;
 }
 .list-group-item.override-bs:hover .wd-explore-nav-icons {
     color: black;

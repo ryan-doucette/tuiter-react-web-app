@@ -1,0 +1,212 @@
+body {
+    min-width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input {
+    background-color: transparent;
+    border: 0;
+    color: black;
+}
+input:focus {
+    outline: none;
+}
+.wd-header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wd-text-regular {
+    font-size: 15px;
+}
+.wd-text-small {
+    font-size: 13px;
+}
+.wd-text-large {
+    font-size: 20px;
+}
+.wd-text-bold {
+    font-weight: 800;
+}
+.wd-white {
+    color: white;
+}
+.wd-light-grey {
+    color: rgb(110, 118, 125);
+}
+.wd-red {
+    color: red;
+}
+.wd-elipsis-icon {
+    width: 24px;
+    height: 6px;
+}
+.wd-section-divider {
+    border-bottom: 1px rgb(47,51,54) solid;
+}
+.wd-tuit-container {
+    display: flex;
+}
+.wd-tuit-profile-picture {
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+}
+.wd-tuit-content-container {
+    width: 100%;
+}
+.wd-tuit-header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.wd-tuit-text-margins {
+    max-width: 506px;
+}
+.wd-tuit-link-container {
+    width: 504px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 1px rgb(47, 51, 54) solid;
+}
+.wd-tuit-link-text-container {
+    display: flex;
+    flex-direction: column;
+}
+.wd-tuit-img {
+    width: 504px;
+    height: 264px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+.wd-tuit-link-url-container {
+    display: flex;
+    align-items: center;
+}
+.wd-tuit-link-url-icon {
+    width: 12px;
+    height: 12px;
+}
+.wd-tuit-reactions-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 425px
+}
+.wd-tuit-reaction-container {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.wd-tuit-reaction-icon {
+    width: 18px;
+}
+.wd-search-input-container {
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: white;
+    border-radius: 100px;
+    width: 100%;
+    border: solid lightgray 1px;
+}
+.wd-link-container {
+    display: flex;
+    justify-content: center;
+}
+.wd-selected-link-container {
+    border-bottom: solid 4px #299fd6;
+}
+.wd-selected-link {
+    color: rgb(29,161,242);
+}
+.wd-suggested-post-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.wd-suggested-post-text-content-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.wd-suggested-post-topic-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wd-elipsis-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.wd-suggested-post-author-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.wd-suggested-post-author-icon {
+    width: 16px;
+}
+.wd-suggested-post-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 12px;
+}
+.list-group-item.override-bs {
+    color: black;
+}
+.active.override-bs {
+    color: white;
+}
+.wd-explore-nav-icons {
+    color: black;
+}
+.wd-main-explore-image-text {
+    bottom: 12px;
+    left: 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+}
+.btn.override-bs {
+    border-radius: 100px;
+    width: 100%;
+}
+.wd-who-to-follow-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.btn.override-bs.wd-follow-button {
+    border-radius: 100px;
+    width: auto;
+}
+.col.override-bs.wd-explore-nav-container {
+    min-width: 96px;
+}
+.col.override-bs.wd-main-content {
+    min-width: 370px;
+}
+.col.override-bs.wd-who-to-follow-container {
+    min-width: 307px;
+}
+.list-group-item.active.override-bs {
+    border: none;
+}
+.nav-link.override-bs {
+    color: rgb(13, 110, 253);
+}
+.nav-link.override-bs:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+/* Small adjustment to prevent text wrapping, edge case bootstrap couldnt cover */
+@media only screen and (min-width: 990px)  {
+    .col.override-bs.wd-main-content {
+        min-width: 502px;
+    }
+}
+    
