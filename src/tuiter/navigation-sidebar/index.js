@@ -9,7 +9,7 @@ const NavigationSidebar = (
         return (
             <div className="list-group">
                 <a className={`list-group-item
-                    ${active === 'tuiter'?'active':''}`}
+                    ${active === 'tuiter'?'active':''}`} href="/tuiter"
                 >
                     <div className="d-flex justify-content-between align-items-center">
                         <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Tuiter</span>
@@ -17,7 +17,7 @@ const NavigationSidebar = (
                     </div>
                 </a>
                 <a className={`list-group-item
-                   ${active === 'home'?'active':''}`}
+                   ${active === 'home'?'active':''}`} href="/tuiter"
                 >
                     <div className="d-flex justify-content-between align-items-center">
                         <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Home</span>
@@ -25,7 +25,7 @@ const NavigationSidebar = (
                     </div>
                 </a>
                 <a className={`list-group-item
-                    ${active === 'explore'?'active':''}`}
+                    ${active === 'explore'?'active':''}`} href="/tuiter"
                 >
                     <div className="d-flex justify-content-between align-items-center">
                         <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Explore</span>
@@ -33,7 +33,7 @@ const NavigationSidebar = (
                     </div>
                 </a>
                 <a className={`list-group-item
-                    ${active === 'notifications'?'active':''}`}
+                    ${active === 'notifications'?'active':''}`} href="/tuiter"
                 >
                     <div className="d-flex justify-content-between align-items-center">
                         <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Notifications</span>
@@ -41,7 +41,7 @@ const NavigationSidebar = (
                     </div>
                 </a>
                 <a className={`list-group-item
-                    ${active === 'messages'?'active':''}`}
+                    ${active === 'messages'?'active':''}`} href="/tuiter"
                 >
                     <div className="d-flex justify-content-between align-items-center">
                         <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Messages</span>
@@ -49,7 +49,7 @@ const NavigationSidebar = (
                     </div>
                 </a>
                 <a className={`list-group-item
-                    ${active === 'bookmarks'?'active':''}`}
+                    ${active === 'bookmarks'?'active':''}`} href="/tuiter"
                 >
                     <div className="d-flex justify-content-between align-items-center">
                         <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Bookmarks</span>
@@ -57,7 +57,7 @@ const NavigationSidebar = (
                     </div>
                 </a>
                 <a className={`list-group-item
-                    ${active === 'lists'?'active':''}`}
+                    ${active === 'lists'?'active':''}`} href="/tuiter"
                 >
                     <div className="d-flex justify-content-between align-items-center">
                         <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Lists</span>
@@ -65,7 +65,7 @@ const NavigationSidebar = (
                     </div>
                 </a>
                 <a className={`list-group-item
-                    ${active === 'profile'?'active':''}`}
+                    ${active === 'profile'?'active':''}`} href="/tuiter"
                 >
                     <div className="d-flex justify-content-between align-items-center">
                         <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Profile</span>
@@ -73,7 +73,7 @@ const NavigationSidebar = (
                     </div>
                 </a>
                 <a className={`list-group-item
-                    ${active === 'more'?'active':''}`}
+                    ${active === 'more'?'active':''}`} href="/tuiter"
                 >
                     <div className="d-flex justify-content-between align-items-center">
                         <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">More</span>

@@ -8,7 +8,7 @@ const PostSummaryItem = ({post}) => {
                     <span className="wd-text-regular mb-1 wd-suggested-post-text-author pe-2">
                         {post.userName}
                     </span>
-                    <img src={require('../../images/twitter-verified.webp')} className="wd-suggested-post-author-icon"/>
+                    <img src={require('../../images/twitter-verified.webp')} alt="post-image" className="wd-suggested-post-author-icon"/>
                     <span className="wd-text-small wd-suggested-post-date ps-2">
                         - {post.time}
                     </span>
