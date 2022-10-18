@@ -1,15 +1,5 @@
 import React from "react";
-const PostSummaryItem = (
- {
-   post = {
-     "topic": "Space",
-     "userName": "SpaceX",
-     "time": "2h",
-     "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
-     "image": "./images/tesla.png"
-   }
- }
-) => {
+const PostSummaryItem = ({post}) => {
  return(
     <li className="list-group-item pb-2 pt-2">
         <div className="wd-suggested-post-container">
@@ -18,7 +8,7 @@ const PostSummaryItem = (
                     <span className="wd-text-regular mb-1 wd-suggested-post-text-author pe-2">
                         {post.userName}
                     </span>
-                    <img src="./images/twitter-verified.webp" className="wd-suggested-post-author-icon"/>
+                    <img src={require('../../images/twitter-verified.webp')} className="wd-suggested-post-author-icon"/>
                     <span className="wd-text-small wd-suggested-post-date ps-2">
                         - {post.time}
                     </span>

@@ -12,7 +12,7 @@ const NavigationSidebar = (
                     ${active === 'tuiter'?'active':''}`}
                 >
                     <div className="d-flex justify-content-between align-items-center">
-                        <span class="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Tuiter</span>
+                        <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Tuiter</span>
                         <i className="fab fa-twitter fa-1x  justify-self-center"></i>
                     </div>
                 </a>
@@ -20,7 +20,7 @@ const NavigationSidebar = (
                    ${active === 'home'?'active':''}`}
                 >
                     <div className="d-flex justify-content-between align-items-center">
-                        <span class="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Home</span>
+                        <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Home</span>
                         <i className="fa fa-home fa-1x  justify-self-center"></i>
                     </div>
                 </a>
@@ -28,7 +28,7 @@ const NavigationSidebar = (
                     ${active === 'explore'?'active':''}`}
                 >
                     <div className="d-flex justify-content-between align-items-center">
-                        <span class="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Explore</span>
+                        <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Explore</span>
                         <i className="fa fa-hashtag fa-1x  justify-self-center"></i>
                     </div>
                 </a>
@@ -36,7 +36,7 @@ const NavigationSidebar = (
                     ${active === 'notifications'?'active':''}`}
                 >
                     <div className="d-flex justify-content-between align-items-center">
-                        <span class="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Notifications</span>
+                        <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Notifications</span>
                         <i className="fa fa-bell fa-1x  justify-self-center"></i>
                     </div>
                 </a>
@@ -44,7 +44,7 @@ const NavigationSidebar = (
                     ${active === 'messages'?'active':''}`}
                 >
                     <div className="d-flex justify-content-between align-items-center">
-                        <span class="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Messages</span>
+                        <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Messages</span>
                         <i className="fa fa-envelope fa-1x  justify-self-center"></i>
                     </div>
                 </a>
@@ -52,7 +52,7 @@ const NavigationSidebar = (
                     ${active === 'bookmarks'?'active':''}`}
                 >
                     <div className="d-flex justify-content-between align-items-center">
-                        <span class="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Bookmarks</span>
+                        <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Bookmarks</span>
                         <i className="fa fa-bookmark fa-1x  justify-self-center"></i>
                     </div>
                 </a>
@@ -60,7 +60,7 @@ const NavigationSidebar = (
                     ${active === 'lists'?'active':''}`}
                 >
                     <div className="d-flex justify-content-between align-items-center">
-                        <span class="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Lists</span>
+                        <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Lists</span>
                         <i className="fa fa-list fa-1x  justify-self-center"></i>
                     </div>
                 </a>
@@ -68,7 +68,7 @@ const NavigationSidebar = (
                     ${active === 'profile'?'active':''}`}
                 >
                     <div className="d-flex justify-content-between align-items-center">
-                        <span class="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Profile</span>
+                        <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Profile</span>
                         <i className="fa fa-user fa-1x  justify-self-center"></i>
                     </div>
                 </a>
@@ -76,7 +76,7 @@ const NavigationSidebar = (
                     ${active === 'more'?'active':''}`}
                 >
                     <div className="d-flex justify-content-between align-items-center">
-                        <span class="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">More</span>
+                        <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">More</span>
                         <i className="fa fa-circle fa-1x  justify-self-center"></i>
                     </div>
                 </a>

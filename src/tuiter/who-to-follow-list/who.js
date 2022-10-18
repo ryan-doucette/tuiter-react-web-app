@@ -1,18 +1,18 @@
-[
+export const whoArray = [
     {
         "userName": "NASA",
         "handle": "NASA",
-        "avatarIcon": "./images/nasa-icon.png"
+        "avatarIcon": require("../../images/nasa-icon.png")
     },
     {
         "userName": "Tesla",
         "handle": "tesla",
-        "avatarIcon": "./images/tesla-icon.png"
+        "avatarIcon": require("../../images/tesla-icon.png")
     },
     {
         "userName": "SpaceX",
         "handle": "SpaceX",
-        "avatarIcon": "./images/spacex-icon.jpeg"
+        "avatarIcon": require("../../images/spacex-icon.jpeg")
     }
 ]
    

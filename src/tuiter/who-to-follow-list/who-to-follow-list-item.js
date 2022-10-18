@@ -1,11 +1,7 @@
 import React from "react";
 import "../../style/explore.css";
 
-const WhoToFollowListItem = (
- {
-   who = { userName: 'NASA', handle: 'NASA', avatarIcon: './images/nasa-icon.png' }
- }
-) => {
+const WhoToFollowListItem = ({who}) => {
     return(
         <li className="list-group-item override-bs wd-who-to-follow">
             <div className="d-flex flex-row justify-content-between align-items-center">
@@ -16,7 +12,7 @@ const WhoToFollowListItem = (
                             <span className="wd-text-bold wd-text-small wd-suggested-post-text-author pe-1">
                                 {who.userName}
                             </span>
-                            <img src="./images/twitter-verified.webp" className="wd-suggested-post-author-icon"/>
+                            <img src={require('../../images/twitter-verified.webp')} className="wd-suggested-post-author-icon"/>
                         </div>
                         <span className="wd-text-small wd-suggested-post-date">
                             @{who.handle}

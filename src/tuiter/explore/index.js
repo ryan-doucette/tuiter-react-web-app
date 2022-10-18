@@ -34,7 +34,7 @@ const ExploreComponent = () => {
                 </ul>
             </section>
             <div className="position-relative pb-2">
-                <img src="./images/spacex-image.jpeg" width="100%" className="pt-2 wd-main-image"/>
+                <img alt="spacex-rocket" src={require('../../images/spacex-image.jpeg')} width="100%" className="pt-2 wd-main-image"/>
                 <span className="position-absolute wd-main-explore-image-text">SpaceX's Starship</span>
             </div>
             <PostSummaryList/>
