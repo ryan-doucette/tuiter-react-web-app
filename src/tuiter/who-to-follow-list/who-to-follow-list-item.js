@@ -6,13 +6,13 @@ const WhoToFollowListItem = ({who}) => {
         <li className="list-group-item override-bs wd-who-to-follow">
             <div className="d-flex flex-row justify-content-between align-items-center">
                 <div className="d-flex flex-row">
-                    <img src={who.avatarIcon} alt={`${who.handle}`} className="wd-who-to-follow-icon"/>
+                    <img role='button' src={who.avatarIcon} alt={`${who.handle}`} className="wd-who-to-follow-icon"/>
                     <div className="d-flex flex-column ps-2">
                         <div className="wd-suggested-post-author-container">
                             <span className="wd-text-bold wd-text-small wd-suggested-post-text-author pe-1">
                                 {who.userName}
                             </span>
-                            <img src={require('../../images/twitter-verified.webp')} alt={'verified-icon'} className="wd-suggested-post-author-icon"/>
+                            <i className="bi bi-patch-check-fill wd-suggested-post-author-icon me-2 text-primary"></i>
                         </div>
                         <span className="wd-text-small wd-suggested-post-date">
                             @{who.handle}

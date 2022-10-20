@@ -202,6 +202,13 @@ input:focus {
 .nav-link.override-bs:hover {
     background-color: rgba(0,0,0,0.1);
 }
+.wd-tuit-stats-mw {
+    max-width: 350px;
+}
+.wd-whats-happening-col {
+    margin-left: 16px;
+    padding-right: 16px;
+}
 
 /* Small adjustment to prevent text wrapping, edge case bootstrap couldnt cover */
 @media only screen and (min-width: 990px)  {
