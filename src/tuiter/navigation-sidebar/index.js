@@ -5,11 +5,12 @@ import {Link, useLocation} from "react-router-dom";
 const NavigationSidebar = () => {
         const location = useLocation();
         const [currentTab, setCurrentTab] = useState(location.pathname);
+
         return (
             <div className="list-group">
                 <Link className={`list-group-item`} 
                     to="/tuiter"
-                    onClick={() => setCurrentTab('/tuiter/')}
+                    onClick={() => setCurrentTab('/tuiter')}
                 >
                     <div className="d-flex justify-content-between align-items-center">
                         <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Tuiter</span>
@@ -26,8 +27,8 @@ const NavigationSidebar = () => {
                     </div>
                 </Link>
                 <Link className={`list-group-item
-                    ${currentTab === '/tuiter/'?'active':''}`} to="/tuiter"
-                    onClick={() => setCurrentTab('/tuiter/')}
+                    ${currentTab === '/tuiter'?'active':''}`} to="/tuiter"
+                    onClick={() => setCurrentTab('/tuiter')}
                 >
                     <div className="d-flex justify-content-between align-items-center">
                         <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Explore</span>
