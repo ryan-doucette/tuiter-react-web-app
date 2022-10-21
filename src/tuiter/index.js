@@ -23,8 +23,8 @@ function Tuiter() {
                </div>
                <div className="col col-6 col-xxl-6 col-xl-6 col-lg-6 col-md-9 col-sm-7 col-xs-7 override-bs wd-main-content">
                   <Routes>
-                     <Route path="/" element={<ExploreComponent/>}/>
-                     <Route path="/home" element={<HomeComponent/>}/>
+                     <Route path="/explore" element={<ExploreComponent/>}/>
+                     <Route path="/" element={<HomeComponent/>}/>
                   </Routes>
                </div>
                <div className="col d-none d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-xs-none col-4 col-xxl-4 col-xl-4 col-lg-3 wd-who-to-follow-container override-bs">

@@ -18,8 +18,8 @@ const NavigationSidebar = () => {
                     </div>
                 </Link>
                 <Link className={`list-group-item
-                   ${currentTab === '/tuiter/home'?'active':''}`} to="/tuiter/home"
-                   onClick={() => setCurrentTab('/tuiter/home')}
+                   ${currentTab === '/tuiter'?'active':''}`} to="/tuiter"
+                   onClick={() => setCurrentTab('/tuiter')}
                 >
                     <div className="d-flex justify-content-between align-items-center">
                         <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Home</span>
@@ -27,8 +27,8 @@ const NavigationSidebar = () => {
                     </div>
                 </Link>
                 <Link className={`list-group-item
-                    ${currentTab === '/tuiter'?'active':''}`} to="/tuiter"
-                    onClick={() => setCurrentTab('/tuiter')}
+                    ${currentTab === '/tuiter/explore'?'active':''}`} to="/tuiter/explore"
+                    onClick={() => setCurrentTab('/tuiter/explore')}
                 >
                     <div className="d-flex justify-content-between align-items-center">
                         <span className="ps-2 d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-xs-none">Explore</span>
