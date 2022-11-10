@@ -15,7 +15,6 @@ export const deleteTuit = async (id) => {
 
 export const createTuit = async (tuit) => {
     const response = await axios.post(TUITS_API, tuit);
-    console.log('response.data', response.data)
     return response.data;
 }
 
