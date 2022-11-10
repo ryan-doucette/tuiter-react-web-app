@@ -204,6 +204,8 @@ input:focus {
 }
 .wd-tuit-stats-mw {
     max-width: 350px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .wd-whats-happening-col {
     margin-left: 16px;

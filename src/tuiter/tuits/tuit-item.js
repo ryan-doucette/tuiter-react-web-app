@@ -2,19 +2,19 @@ import React from "react";
 import TuitStats from "./tuit-stats";
 import "../../style/explore.css";
 import { useDispatch } from "react-redux";
-import { deleteTuit } from "./tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = ({post}) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
 
     return(
         <li className="list-group-item pb-2 pt-2">
             <div className="d-flex w-100"> 
                 <div className="pe-3">
-                    <img src={post.image} alt={`${post.image}`} role='button' className="wd-who-to-follow-icon"/>
+                    <img src={`${post.image}`} alt={`${post.image}`} role='button' className="wd-who-to-follow-icon"/>
                 </div>
                 <div className="w-100">
                     <section>

@@ -1,18 +1,21 @@
 import React, {useState} from "react";
 import "../../style/explore.css";
-import {createTuit} from "../tuits/tuits-reducer";
+import { createTuitThunk } from "../../services/tuits-thunks";
 import {useDispatch} from "react-redux";
-
+ 
 const WhatsHappening = () => {
     let [whatsHappening, setWhatsHappening] = useState('');
+
     const dispatch = useDispatch();
+
     const tuitClickHandler = () => {
         const newTuit = {
-            tuit: whatsHappening
+          tuit: whatsHappening,
         }
-        dispatch(createTuit(newTuit));
-        setWhatsHappening('');
+        console.log('newTuit', newTuit);
+        dispatch(createTuitThunk(newTuit));
     }
+       
     return (
         <>
             <div className="w-100"><hr/></div>
@@ -35,7 +38,8 @@ const WhatsHappening = () => {
                             <i role='button' className="bi bi-geo-alt"></i>
                         </div>
                         <button className="rounded-pill btn btn-primary float-end ps-3 pe-3 fw-bold"
-                            onClick={tuitClickHandler}>
+                            onClick={() => tuitClickHandler(whatsHappening)}
+                        >
                             Tuit
                         </button>
                     </div>
