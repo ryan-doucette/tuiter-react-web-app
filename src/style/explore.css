@@ -203,13 +203,36 @@ input:focus {
     background-color: rgba(0,0,0,0.1);
 }
 .wd-tuit-stats-mw {
-    max-width: 350px;
     display: flex;
-    justify-content: space-evenly;
+    padding: 0;
 }
 .wd-whats-happening-col {
     margin-left: 16px;
     padding-right: 16px;
+}
+.wd-stats-icon {
+    padding-right: .5rem;
+}
+.wd-liked-and-disliked {
+    padding-right: .25rem;
+}
+.wd-stats-spacing {
+    padding-right: .5rem;
+}
+@media only screen and (max-width: 768px)  {
+    .wd-liked-and-disliked {
+        display: none;
+        padding-right: 3px;
+    }
+    .wd-stats-icon {
+        padding-right: 3px;
+    }
+}
+
+@media only screen and (min-width: 1200px)  {
+    .wd-stats-spacing {
+        padding-right: 1rem;
+    }
 }
 
 /* Small adjustment to prevent text wrapping, edge case bootstrap couldnt cover */
