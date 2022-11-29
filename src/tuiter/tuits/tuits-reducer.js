@@ -54,7 +54,7 @@ const tuitsSlice = createSlice({
                 ...payload,
             }
         }
-    },   
+    },  
     reducers: {
         deleteTuit(state, action) {
             const index = state.findIndex(tuit => tuit._id === action.payload);
